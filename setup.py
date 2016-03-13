@@ -1,8 +1,8 @@
-from setuptools import setup
+from setuptools import setup,find_packages
 setup(
-  name = 'flipkart',
-  packages = ['flipkart'], # this must be the same as the name above
-  version = '0.2',
+  name = 'flipkart-api',
+  packages = find_packages(), # this must be the same as the name above
+  version = '0.3',
   description = 'Flipkart affilate api ',
   author = 'Siddharh Jain',
   author_email = 'sidj242@gmail.com',
