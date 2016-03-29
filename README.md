@@ -50,7 +50,7 @@ Batch lookup requests are also supported:
      >>> flipkart = FlipkartApi(Affiliate_Tracking_ID, Token)
      >>> products = flipkart.lookup(id='MOBEYHZ28ZYTRJYM,BKPE63TH6M2BYPFT,WATE9HBZASZB27NN')
      >>> len(products)
-     5
+     3
      >>> products[0].productid
      'MOBEYHZ28ZYTRJYM'
 
